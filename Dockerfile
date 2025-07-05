@@ -1,4 +1,4 @@
-services:
-  time_app:
-    build: .
-    container_name: my_time_app
+FROM python:3.9-alpine
+WORKDIR /app
+COPY app.py .
+CMD ["python", "app.py"]
