@@ -1,4 +1,5 @@
+version: '3.8'
 services:
   time_app:
-    build: .
+    build: .  
     container_name: alinochka-container
